@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context="kr.co.mikarusoft.seoul_happyplus_finder.MainControlActivity">
+
+    <TextView
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:text="서울 행복플러스 카페 길잡이에 오신 것을 환영합니다!! 무엇을 도와드릴까요?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextureView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/go_mokdong"
+        android:text="목동점"
+        android:textColor="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/go_city_hall_station"
+        android:textColor="@color/blue"
+        android:text="시청역점"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/go_new_city_hall"
+        android:textColor="@color/yellow"
+        android:text="서울시청 신청사점"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/go_seoul_sangsang"
+        android:textColor="@color/red"
+        android:text="서울상상나라점"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/go_daechi"
+        android:textColor="@color/black"
+        android:text="대치점"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
